@@ -1,5 +1,4 @@
-
-
+/* Global */
 .box {
     background-color: grey;
     border: 1px solid black;
@@ -14,4 +13,10 @@
     grid-template-rows: 100px 2fr 1fr 100px;
     min-height: 100vh;
     gap: 10px;
+}
+
+.navbar {
+    color: white;
+    padding: 0;
+    margin: 0;
 }
