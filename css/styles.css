@@ -1,0 +1,17 @@
+
+
+.box {
+    background-color: grey;
+    border: 1px solid black;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.my-grid{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 2fr 1fr 100px;
+    min-height: 100vh;
+    gap: 10px;
+}
